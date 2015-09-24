@@ -1,0 +1,47 @@
+/*Everything*/
+body {
+  color: lightslategray;
+  margin: 8px 0 8px 8px;
+}
+
+/*Top bar*/
+.topBar {
+  margin: 0 16px;
+}
+.topBar a {
+  text-decoration: none;
+  color:lightslategray;
+}
+.topBar a:hover {
+  color: black;
+}
+
+/*Header*/
+.header {
+  background-image: url(https://raw.githubusercontent.com/tiy-atl-js-sept-2015/Assignments/master/Assignment-04/Normal-Mode/assets/background.jpg);
+  height: 400px;
+  color: white;
+  font-size: 50px;
+  vertical-align: middle;
+}
+
+
+/*Footer*/
+.footer {
+  vertical-align: middle;
+  background: black;
+  height: 75px;
+}
+.footer a {
+  color: white;
+}
+
+
+/*.details {
+  display: inline-block;
+  max-width: auto;
+}
+
+/*h6 {
+  margin: 0;
+}*/
