@@ -1,7 +1,7 @@
 /*Everything*/
 body {
   color: lightslategray;
-  margin: 8px 0 8px 8px;
+  margin: 8px;
 }
 
 /*Top bar*/
@@ -19,18 +19,31 @@ body {
 /*Header*/
 .header {
   background-image: url(https://raw.githubusercontent.com/tiy-atl-js-sept-2015/Assignments/master/Assignment-04/Normal-Mode/assets/background.jpg);
+  background-size: cover;
   height: 400px;
+/*  width: 1340px;*/
   color: white;
-  font-size: 50px;
-  vertical-align: middle;
+  font-size: 50px; 
+  padding: 0;
+ /* display: inline-block;*/
+  text-align: center;
+ /* vertical-align: middle;*/
 }
 
+.tier {
+  width: 400px;
+  display: inline-block;
+  list-style: none;
+  border: 1px solid darkslategray;
+}
 
 /*Footer*/
 .footer {
-  vertical-align: middle;
   background: black;
   height: 75px;
+/*  display: inline-block;*/
+  text-align: center;
+/*  vertical-align: middle;*/
 }
 .footer a {
   color: white;
