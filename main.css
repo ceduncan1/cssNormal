@@ -1,16 +1,18 @@
 /*Everything*/
 body {
-  color: lightslategray;
+  font: helvetica;
+  color: red;
   margin: 8px;
 }
 
 /*Top bar*/
 .topBar {
+  color: gray;
   margin: 0 16px;
 }
 .topBar a {
   text-decoration: none;
-  color:lightslategray;
+  color: gray;
 }
 .topBar a:hover {
   color: black;
@@ -27,19 +29,74 @@ body {
   padding: 0;
  /* display: inline-block;*/
   text-align: center;
- /* vertical-align: middle;*/
+  /*position: absolute;*/
+  /*vertical-align: middle;*/
 }
+/*
+.charts {
+  padding-right: auto:
+  padding-left; auto;
+}*/
 
+ul {
+  list-style: none;
+  text-align: center;
+}
 .tier {
-  width: 400px;
+  width: 310px;
   display: inline-block;
   list-style: none;
-  border: 1px solid darkslategray;
+  border: 1px solid #DFDFDF;
+  margin: 0 5px;
+}
+
+/*b {
+  font-size: 30px;
+  text-decoration: none;
+}*/
+
+/*.dollars {
+  font-size: 50px;
+}*/
+
+.gray {
+  color: dimgray;
+  border-top: 1px solid #DFDFDF;
+  background: whitesmoke;
+}
+
+#tier1 {
+  background: seagreen;
+  color: white;
+}
+
+#tier2 {
+  background: darkslateblue;
+  color: white;
+}
+
+#tier3 {
+  background: black;
+  color: white;
+}
+
+
+.details {
+  list-style: none;
+  text-align: center;
+  color: #5A676D;
+}
+
+.details li {
+  text-align: left;
+  display: inline-block;
+  width: 500px;
 }
 
 /*Footer*/
 .footer {
   background: black;
+  color: #8B8B8B;
   height: 75px;
 /*  display: inline-block;*/
   text-align: center;
