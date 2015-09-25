@@ -1,4 +1,4 @@
-/*Everything*/
+Everything*/
 body {
   font: helvetica;
   color: red;
@@ -6,6 +6,10 @@ body {
 }
 
 /*Top bar*/
+.wholeBar{
+  margin: 15px 0 9px 0;
+}
+
 .topBar {
   color: gray;
   margin: 0 16px;
@@ -33,11 +37,11 @@ body {
   /*position: absolute;*/
   /*vertical-align: middle;*/
 }
-/*
-.charts {
-  padding-right: auto:
-  padding-left; auto;
-}*/
+
+/*.charts {*/
+  /*padding-right: auto:*/
+  /*padding-left; auto;*/
+/*}*/
 
 .headerText {
   /*margin-top: 100px;*/
@@ -68,37 +72,60 @@ ul {
   color: dimgray;
   border-top: 1px solid #DFDFDF;
   background: whitesmoke;
+  padding: 12px;
 }
 
 .button {
   border-top: 1px solid #DFDFDF;
+  border-radius: ;
+  padding: 30px;
 }
 
 #tier1 {
-  background: seagreen;
+  background: #4F934E ;
   color: white;
+  padding: 35px;
 }
 
 #tier2 {
   background: darkslateblue;
   color: white;
+  padding: 35px;
 }
 
 #tier3 {
   background: black;
   color: white;
+  padding: 35px;
 }
 
 .level {
   margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  letter-spacing: 4px;
+  /*font-stretch: ultra-expanded;*/
 }
 
 .dollars {
   margin: 0;
+  font-size: 100px;
 }
 
 .month {
   margin: 0;
+  opacity: .5;
+  font-weight: bold;
+}
+
+button {
+  color: black;
+  font-weight: bold;
+  /*border-radius: none;*/
+  border: 1px solid #DFDFDF;
+  border-radius: 22px;
+  background-color: white;
+  padding: 9px 20px;
 }
 
 
@@ -117,6 +144,14 @@ ul {
   margin: 0;
   vertical-align: top;
   padding: 30px;
+  line-height: 25px;
+}
+
+.tagline {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #101010;
+  letter-spacing: 4px;
 }
 
 /*.left {
@@ -150,4 +185,4 @@ ul {
 
 /*h6 {
   margin: 0;
-}*/
+}
