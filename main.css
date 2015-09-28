@@ -11,7 +11,7 @@ body {
 }
 
 .topBar {
-  color: gray;
+  color: #5F656C;
   margin: 0 16px;
 }
 .topBar a {
@@ -32,19 +32,7 @@ body {
   font-size: 50px; 
   padding: 0;
   padding-top: 145px;
- /* display: inline-block;*/
   text-align: center;
-  /*position: absolute;*/
-  /*vertical-align: middle;*/
-}
-
-/*.charts {*/
-  /*padding-right: auto:*/
-  /*padding-left; auto;*/
-/*}*/
-
-.headerText {
-  /*margin-top: 100px;*/
 }
 
 ul {
@@ -58,15 +46,6 @@ ul {
   border: 1px solid #DFDFDF;
   margin: 0 5px;
 }
-
-/*b {
-  font-size: 30px;
-  text-decoration: none;
-}*/
-
-/*.dollars {
-  font-size: 50px;
-}*/
 
 .gray {
   color: dimgray;
@@ -88,7 +67,7 @@ ul {
 }
 
 #tier2 {
-  background: darkslateblue;
+  background: #2A4787;
   color: white;
   padding: 35px;
 }
@@ -104,7 +83,7 @@ ul {
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   letter-spacing: 4px;
-  /*font-stretch: ultra-expanded;*/
+  /*font-stretch: expanded;*/
 }
 
 .dollars {
@@ -121,11 +100,16 @@ ul {
 button {
   color: black;
   font-weight: bold;
-  /*border-radius: none;*/
   border: 1px solid #DFDFDF;
   border-radius: 22px;
   background-color: white;
   padding: 9px 20px;
+}
+
+button:hover {
+  background-color: #5F656C;
+  border: 1px solid #5F656C;
+  color: white;
 }
 
 
@@ -154,14 +138,6 @@ button {
   letter-spacing: 4px;
 }
 
-/*.left {
-  float: left
-}*/
-
-/*.right {
-  float: right;
-}*/
-
 /*Footer*/
 .footer {
   background: black;
@@ -169,20 +145,9 @@ button {
   height: 48px;
   padding-top: 27px;
   width: 100%;
-/*  display: inline-block;*/
   text-align: center;
-/*  vertical-align: middle;*/
 }
+
 .footer a {
   color: white;
-}
-
-
-/*.details {
-  display: inline-block;
-  max-width: auto;
-}
-
-/*h6 {
-  margin: 0;
 }
